@@ -18,6 +18,10 @@ public class Main {
         terms.add(new Term("normal_cruise_performance_for_warrior", "105"));
         terms.add(new Term("slow_cruise_performance_for_warrior", "80"));
         terms.add(new Term("precautionary_cruise_performance_for_warrior", "80"));
+        terms.add(new Term("fast_cruise_performance_for_archer", "120"));
+        terms.add(new Term("normal_cruise_performance_for_archer", "110"));
+        terms.add(new Term("slow_cruise_performance_for_archer", "85"));
+        terms.add(new Term("precautionary_cruise_performance_for_archer", "85"));
 
         return terms;
     }

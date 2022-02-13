@@ -18,10 +18,22 @@ public class Main {
         terms.add(new Term("normal_cruise_performance_for_warrior", "105"));
         terms.add(new Term("slow_cruise_performance_for_warrior", "80"));
         terms.add(new Term("precautionary_cruise_performance_for_warrior", "80"));
+        terms.add(new Term("best_rate_of_climb_performance_for_warrior", "79"));
+        terms.add(new Term("best_angle_of_climb_performance_for_warrior", "63"));
+        terms.add(new Term("cruise_climb_performance_for_warrior", "87"));
+        terms.add(new Term("cruise_descent_performance_for_warrior", "500"));
+        terms.add(new Term("glide_descent_performance_for_warrior", "73"));
+        terms.add(new Term("approach_descent_performance_for_warrior", "75"));
         terms.add(new Term("fast_cruise_performance_for_archer", "120"));
         terms.add(new Term("normal_cruise_performance_for_archer", "110"));
         terms.add(new Term("slow_cruise_performance_for_archer", "85"));
         terms.add(new Term("precautionary_cruise_performance_for_archer", "85"));
+        terms.add(new Term("best_rate_of_climb_performance_for_archer", "76"));
+        terms.add(new Term("best_angle_of_climb_performance_for_archer", "64"));
+        terms.add(new Term("cruise_climb_performance_for_archer", "90"));
+        terms.add(new Term("cruise_descent_performance_for_archer", "500"));
+        terms.add(new Term("glide_descent_performance_for_archer", "76"));
+        terms.add(new Term("approach_descent_performance_for_archer", "75"));
 
         return terms;
     }
